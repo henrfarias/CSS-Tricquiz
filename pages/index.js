@@ -43,7 +43,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/henrfarias" />
+      <GitHubCorner projectUrl="https://github.com/henrfarias/CSS-Tricquiz" />
     </QuizBackground>
   );
 }
