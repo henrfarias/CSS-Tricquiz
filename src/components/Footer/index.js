@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const FooterWrapper = styled.footer`
-    background-color: rgba(0,0,0,.7);
+    background-color: ${({ theme }) => theme.colors.primary};
     padding: 20px;
     display: flex;
     align-items: center;

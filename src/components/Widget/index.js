@@ -16,10 +16,11 @@ const Widget = styled.div`
         line-height: 1;
         margin-bottom: 0;
     }
-    p {
+    h3, p {
         font-size: 14px;
         font-weight: 400;
         line-height: 1;
+        color: ${({ theme }) => theme.colors.texts}
     }
 `;
 
