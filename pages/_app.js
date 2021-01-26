@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content="https://css-tricquiz-git-main.henrfarias.vercel.app/" />
         <meta property="og:title" content="CSS Tricquiz" />
         <meta property="og:type" content="game" />
-        <meta property="og:description" content="Teste seus conhecimentos de CSS com este quiz sobre truques mágicos do CSS!" />
+        <meta property="og:description" content="Teste seus conhecimentos com este quiz sobre truques mágicos do CSS!" />
         <meta property="og:locale" content="pt_BR" />
       </Head>
       <ThemeProvider theme={theme}>
