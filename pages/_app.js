@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <link rel="preconnect" href="https://fonts. gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
-        <meta property="og:image" content="https://images-ext-1.discordapp.net/external/S0EFbTnYFImAVp0YFyTnMbNdHCCvSqS0LB5rJ8i3TQE/https/lh6.googleusercontent.com/7BDMcK5wuWmyOIQ0_iCIKDFugIo88n75YfXDWhELVkkdsZm92lfo5ctgMT2NPQJMiqfa-YeryxEx3senN15i%3Dw1920-h937-rw?width=878&height=338" />
+        <meta property="og:image" content="https://images-ext-1.discordapp.net/external/S0EFbTnYFImAVp0YFyTnMbNdHCCvSqS0LB5rJ8i3TQE/https/lh6.googleusercontent.com/7BDMcK5wuWmyOIQ0_iCIKDFugIo88n75YfXDWhELVkkdsZm92lfo5ctgMT2NPQJMiqfa-YeryxEx3senN15i%3Dw1920-h937-rw?width=878&height=500" />
         <meta property="og:url" content="https://css-tricquiz-git-main.henrfarias.vercel.app/" />
         <meta property="og:title" content="CSS Tricquiz" />
         <meta property="og:type" content="game" />
