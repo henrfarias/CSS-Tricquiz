@@ -45,12 +45,13 @@ Widget.Content = styled.div`
         padding: 0;
     }
     input {
-        background-color: transparent;
+        background: rgba(255,255,255,.01);
         border: 1px solid ${({ theme }) => theme.colors.lightText};
         border-radius: ${({ theme }) => theme.borderRadius};
         color: ${({ theme }) => theme.colors.lightText};
         font-weight: 700;
         height: 2.5rem;
+        text-align: center;
         width: 100%;
     &:focus {
         outline: 0;
