@@ -1,27 +1,18 @@
 import React from 'react';
-import styled from 'styled-components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
+import QuizContainer from '../src/components/QuizContainer';
 import QuizLogo from '../src/components/QuizLogo';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 import Footer from '../src/components/Footer';
 
-const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
-
-export default function Home() {
+function Home() {
   const router = useRouter();
   const [name, setName] = React.useState(''); // O retorno do useState é uma "tupla" ['valor', function]
 
@@ -38,8 +29,7 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>
-              {' '}
-              {db.description}
+              {`${db.description}`}
             </p>
             <form onSubmit={(event) => {
               event.preventDefault();
@@ -47,16 +37,17 @@ export default function Home() {
               // router manda para a proxima pagina
             }}
             >
-              <input
-                onChange={(event) => {
+              <Input
+                name="NomeDoUsuario"
+                onChange={(event) => setName(event.target.value)}
                   // State
-                  setName(event.target.value);
-                }}
                 placeholder="Qual seu nome?"
+                value={name}
+                autoComplete="off"
               />
-              <button type="submit" disabled={name.length === 0}>
+              <Button disabled={name.length === 0}>
                 Jogar
-              </button>
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
@@ -72,3 +63,5 @@ export default function Home() {
     </QuizBackground>
   );
 }
+
+export default Home;

@@ -4,18 +4,30 @@
     "description": "Venha testar seus conhecimentos em CSS!",
     "questions": [
         {
-            "image": "",
-            "title": "",
+            "image": "https://media.giphy.com/media/HkUdOfq3a8irK/giphy.gif",
+            "title": "Qual o seletor de classe no CSS?",
             "description": "",
-            "answer":"",
-            "alternatives": []
+            "answer":"0",
+            "alternatives": [
+                ".class",
+                "#class",
+                ">class",
+                ":class",
+                "$class" 
+            ]
         },
         {
-            "image": "",
-            "title": "",
+            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
+            "title": "O que acontece quando utilizamos display: flex em uma div",
             "description": "",
-            "answer":"",
-            "alternatives": []
+            "answer":"3",
+            "alternatives": [
+                "Nada.",
+                "A div vai para o topo da página",
+                "A div é indexada a frente das outras divs",
+                "Os childs(filhos) desta div se enfileiram horizontalmente",
+                "Os childs(filhos) desta div se enfileiram verticalmente"
+            ]
         }
     ],
     "external": [
@@ -24,14 +36,11 @@
     "theme": {
         "colors": {
             "primary": "#502274",
-            "secondary": "#a29bfe",
+            "secondary": "#A42CD6",
             "mainBg": "#2F242C",
-            "lightText": "#F7FFF7",
-            "darkText": "#353535",
+            "contrastText": "#F7FFF7",
             "wrong": "#FF5722",
-            "success": "#4CAF50",
-            "button": "#A42CD6",
-            "disabled": "#d9d9d9"
+            "success": "#4CAF50"
         },
         "borderRadius": "4px"
     }
