@@ -16,7 +16,7 @@ const Button = styled.button`
     &:hover,
     &:focus
      {
-      opacity: .8;
+      opacity: .5;
     }
     &:disabled {
         background: #d9d9d9;

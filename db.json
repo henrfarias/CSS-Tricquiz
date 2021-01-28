@@ -7,7 +7,7 @@
             "image": "https://media.giphy.com/media/HkUdOfq3a8irK/giphy.gif",
             "title": "Qual o seletor de classe no CSS?",
             "description": "",
-            "answer":"0",
+            "answer":0,
             "alternatives": [
                 ".class",
                 "#class",
@@ -20,7 +20,7 @@
             "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
             "title": "O que acontece quando utilizamos display: flex em uma div",
             "description": "",
-            "answer":"3",
+            "answer":3,
             "alternatives": [
                 "Nada.",
                 "A div vai para o topo da página",
