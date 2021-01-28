@@ -11,6 +11,7 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import AlternativesForm from '../src/components/AlternativeForm';
 import Button from '../src/components/Button';
 import Footer from '../src/components/Footer';
+import LoadingSkt from '../src/components/LoadingSkt';
 
 function ResultWidget({ results }) {
   return (
@@ -59,10 +60,7 @@ function LoadingWidget() {
       <Widget.Header>
         Carregando...
       </Widget.Header>
-
-      <Widget.Content>
-        [Desafio do Loading]
-      </Widget.Content>
+      <LoadingSkt />
     </Widget>
   );
 }
