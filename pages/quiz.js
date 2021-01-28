@@ -21,7 +21,7 @@ function ResultWidget({ results }) {
       </Widget.Header>
 
       <Widget.Content>
-        <p>
+        <h2>
           Você acertou
           {' '}
           {/* {results.reduce((somatoriaAtual, resultAtual) => {
@@ -34,7 +34,7 @@ function ResultWidget({ results }) {
           {results.filter((x) => x).length}
           {' '}
           perguntas
-        </p>
+        </h2>
         <ul>
           {results.map((result, index) => (
             <li key={`result__${result}`}>
@@ -162,7 +162,7 @@ const screenStates = {
 
 function QuizPage() {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
-  const [results, setResults] = React.useState([]);
+  const [results, setResults] = React.useState([true, false, true, true]);
   const totalQuestions = db.questions.length;
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   const questionIndex = currentQuestion;

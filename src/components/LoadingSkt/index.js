@@ -11,6 +11,9 @@ const Box = styled.span`
   &:first-child {
     margin-top: 15px;
   }
+  &:last-child {
+    margin-bottom: 20px;
+  }
 `;
 
 function LoadingSkt() {
