@@ -66,4 +66,10 @@ Widget.Topic = styled.a`
   }
 `;
 
+Widget.Image = styled.img`
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+`;
+
 export default Widget;

@@ -85,16 +85,11 @@ function QuestionWidget({
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
       </Widget.Header>
-
-      <img
+      <Widget.Image
         alt="Descrição"
-        style={{
-          width: '100%',
-          height: '400',
-          objectFit: 'contain',
-        }}
         src={question.image}
       />
+
       <Widget.Content>
         <h2>
           {question.title}
@@ -162,7 +157,7 @@ const screenStates = {
 
 function QuizPage() {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
-  const [results, setResults] = React.useState([true, false, true, true]);
+  const [results, setResults] = React.useState([]);
   const totalQuestions = db.questions.length;
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   const questionIndex = currentQuestion;

@@ -30,107 +30,105 @@
             ]
         },
         {
-            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
-            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "image": "https://c7.alamy.com/comp/2C6084M/flat-design-modern-vector-illustration-concept-of-two-business-people-playing-chess-and-try-to-find-strategic-position-and-tactic-for-long-term-succes-2C6084M.jpg",
+            "title": "Qual das opções NÃO é um valor da propriedade 'position'?",
             "description": "",
-            "answer":2,
+            "answer":4,
             "alternatives": [
-                ":none",
-                ":blank",
-                ":disabled",
-                ":inactive",
-                ":off"
+                "static",
+                "fixed",
+                "sticky",
+                "inherit",
+                "opposite"
             ]
         },
         {
-            "image": "https://lh5.googleusercontent.com/YHk1hKQJN8N96hOcXr-t1rsdUPR_WO73-nn0D_HX72i9jgE8NVcCzYusQS4Yrzsw8un5mmhihTudh5o_f-5M=w1920-h947-rw",
+            "image": "https://lh3.googleusercontent.com/oycT7VgUGSrPWw8pn4JtZYkWWOTMeRo4SAzgc3EbEq4_hm-JZ9Pra0TLQUwqYBAl4kpjNoLtL1GzFMWL53oA=w1600-h767-rw",
             "title": "Qual desses seletores consegue nos ajudar a estilizar apenas os parágrafos abaixo da imagem?",
             "description": "não vale usar classes, hein! Modo sênior!",
-            "answer":4,
+            "answer":3,
             "alternatives": [
                 "img > p",
                 "p < img",
                 "img.p",
-                "img & p",
-                "img ~ p"
+                "img ~ p",
+                "img & p"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
-            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "image": "https://miro.medium.com/max/700/1*nzLFdjBHf_qgHI7cbGwk3Q.jpeg",
+            "title": "Qual é a pseudo-classe que permite estilizar apenas seletores desativados?",
             "description": "",
             "answer":2,
             "alternatives": [
-                ":none",
-                ":blank",
-                ":disabled",
-                ":inactive",
-                ":off"
+                "[none]",
+                "[blank]",
+                "[disabled]",
+                "[inactive]",
+                "[off]"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
-            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "image": "https://hackernoon.com/images/r140w2guc.jpg",
+            "title": "Qual opção está em ordem crescente de especificidade?",
             "description": "",
-            "answer":2,
+            "answer":3,
             "alternatives": [
-                ":none",
-                ":blank",
-                ":disabled",
-                ":inactive",
-                ":off"
+                ".tag -> #id -> tag",
+                ".class.class -> tag -> .class:pseudo-class  ",
+                "[atributo] -> tag -> .class",
+                "tag -> [atributo] -> #id",
+                ".class -> #id -> [atributo]"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
-            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "image": "https://ichef.bbci.co.uk/news/800/cpsprodpb/9947/production/_99893293_tierraplana.jpg",
+            "title": "O atributo 'border' é um shorthand (atalho) para várias propriedades da borda, qual é a ordem de declaração?",
             "description": "",
-            "answer":2,
+            "answer":0,
             "alternatives": [
-                ":none",
-                ":blank",
-                ":disabled",
-                ":inactive",
-                ":off"
+                "border: width, style, color",
+                "border: style, width color",
+                "border: color, width, style"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
-            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "image": "https://p0.pikist.com/photos/793/8/tape-measure-members-to-scale-folding-rule-bers-scale-craft-measure-centimeters-classification-number.jpg",
+            "title": "Qual unidade representa o tamanho da fonte do elemento raiz?",
             "description": "",
-            "answer":2,
+            "answer":3,
             "alternatives": [
-                ":none",
-                ":blank",
-                ":disabled",
-                ":inactive",
-                ":off"
+                "px",
+                "vw",
+                "em",
+                "rem",
+                "ch"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
-            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "image": "https://wallpaperaccess.com/full/299078.jpg",
+            "title": "O atributo 'background' também é um shorthand poderoso. Qual é a ordem das propriedades?",
             "description": "",
             "answer":2,
             "alternatives": [
-                ":none",
-                ":blank",
-                ":disabled",
-                ":inactive",
-                ":off"
+                "position, image, color, attachment, repeat",
+                "image, repeat, color, position, attachment",
+                "color, image, repeat, attachment, position",
+                "color, image, attachment, repeat, position",
+                "position, color, repeat, attachment, image"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
-            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "image": "https://media.giphy.com/media/CaiVJuZGvR8HK/giphy.gif",
+            "title": "Para que serve a propriedade CSS 'object-fit'?",
             "description": "",
-            "answer":2,
+            "answer":1,
             "alternatives": [
-                ":none",
-                ":blank",
-                ":disabled",
-                ":inactive",
-                ":off"
+                "Para centralizar elementos em suas divs.",
+                "Para ajustar imagens e vídeos aos seus respectivos containers",
+                "Para animar elementos",
+                "Para dimensionar o tamanho de um container",
+                "Não existe esta propriedade."
             ]
         }
     ],
