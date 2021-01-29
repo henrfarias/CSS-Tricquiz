@@ -16,12 +16,18 @@ const InputBase = styled.input`
     }
 `;
 
-function Input({ onChange, placeholder, ...props }) {
+function Input({
+  onChange,
+  placeholder,
+  autoComplete,
+  ...props
+}) {
   return (
     <div>
       <InputBase
         onChange={onChange}
         placeholder={placeholder}
+        autoComplete={autoComplete}
         // eslint-disable-next-line react/jsx-props-no-spreading
         {...props}
       />
@@ -36,6 +42,7 @@ Input.defaultProps = {
 Input.propTypes = {
   onChange: PropTypes.func.isRequired,
   placeholder: PropTypes.string.isRequired,
+  autoComplete: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   value: PropTypes.string,
 };

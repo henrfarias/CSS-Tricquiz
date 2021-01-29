@@ -18,20 +18,125 @@
         },
         {
             "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
-            "title": "O que acontece quando utilizamos display: flex em uma div",
+            "title": "O que acontece quando utilizamos 'display: flex' em uma div com 3 componentes.",
             "description": "",
             "answer":3,
             "alternatives": [
-                "Nada.",
-                "A div vai para o topo da página",
-                "A div é indexada a frente das outras divs",
-                "Os childs(filhos) desta div se enfileiram horizontalmente",
-                "Os childs(filhos) desta div se enfileiram verticalmente"
+                "Os childs (filhos) desta div se enfileiram verticalmente.",
+                "A div vai para o topo da página.",
+                "A div é indexada a frente das outras divs.",
+                "Os childs (filhos) desta div se enfileiram horizontalmente.",
+                "Nada."
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
+            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "description": "",
+            "answer":2,
+            "alternatives": [
+                ":none",
+                ":blank",
+                ":disabled",
+                ":inactive",
+                ":off"
+            ]
+        },
+        {
+            "image": "https://lh5.googleusercontent.com/YHk1hKQJN8N96hOcXr-t1rsdUPR_WO73-nn0D_HX72i9jgE8NVcCzYusQS4Yrzsw8un5mmhihTudh5o_f-5M=w1920-h947-rw",
+            "title": "Qual desses seletores consegue nos ajudar a estilizar apenas os parágrafos abaixo da imagem?",
+            "description": "não vale usar classes, hein! Modo sênior!",
+            "answer":4,
+            "alternatives": [
+                "img > p",
+                "p < img",
+                "img.p",
+                "img & p",
+                "img ~ p"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
+            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "description": "",
+            "answer":2,
+            "alternatives": [
+                ":none",
+                ":blank",
+                ":disabled",
+                ":inactive",
+                ":off"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
+            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "description": "",
+            "answer":2,
+            "alternatives": [
+                ":none",
+                ":blank",
+                ":disabled",
+                ":inactive",
+                ":off"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
+            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "description": "",
+            "answer":2,
+            "alternatives": [
+                ":none",
+                ":blank",
+                ":disabled",
+                ":inactive",
+                ":off"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
+            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "description": "",
+            "answer":2,
+            "alternatives": [
+                ":none",
+                ":blank",
+                ":disabled",
+                ":inactive",
+                ":off"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
+            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "description": "",
+            "answer":2,
+            "alternatives": [
+                ":none",
+                ":blank",
+                ":disabled",
+                ":inactive",
+                ":off"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif",
+            "title": "Qual é a pseudo-classe que permite estilizar apenas componentes desativados?",
+            "description": "",
+            "answer":2,
+            "alternatives": [
+                ":none",
+                ":blank",
+                ":disabled",
+                ":inactive",
+                ":off"
             ]
         }
     ],
     "external": [
-
+        "https://aluraquiz-simpsons.marcio-bernardes.vercel.app/",
+        "https://alura-quiz-avengers.fernanda-kipper.vercel.app/"
     ],
     "theme": {
         "colors": {

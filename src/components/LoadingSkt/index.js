@@ -8,6 +8,7 @@ const Box = styled.span`
   align-items: center;
   opacity: 0.8;
   margin:-10px;
+  opacity: 0.5;
   &:first-child {
     margin-top: 15px;
   }
